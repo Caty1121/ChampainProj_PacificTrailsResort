@@ -15,6 +15,7 @@
 </head>
 
 <body>
+  <!-- Replacing this tag was perplexing for me because the body seems to serve this purpose but I'm not sure this use of markup is correct-->
   <section id="wrapper">
     <header>
       <h1>Pacific Trails Resort</h1>
@@ -30,6 +31,7 @@
     </nav>
 
     <main>
+      <!---Refactoring "yurt-hero" from a div to a section tag here is far more intuitive. As there is a pattern I can create with in keeping the h-tags in divided section tags.-->
       <section id="yurt-hero">
         <h2>The Yurts at Pacific Trails</h2>
         <dl>
@@ -41,7 +43,7 @@
           <dd>Bring a sense of adventure and some time to relax! Most guests...</dd>
         </dl>
       </section>
-
+      <!--This is the final replacement, denoting the third h-tag. I also updated the ids to follow the same convention.-->
       <section id="yurt-packages">
         <h3>Yurt Packages</h3>
         <p>A variety of luxury yurt packages are available. Choose a package...</p>
