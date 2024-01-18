@@ -13,14 +13,13 @@
   
   <!-- Completed files -->
 </head>
-
-<body>
-  <!-- Replacing this tag was perplexing for me because the body seems to serve this purpose but I'm not sure this use of markup is correct-->
-  <section id="wrapper">
+<!-- Replacing this tag was perplexing for me because the body seems to serve this purpose but I'm not sure this use of markup is correct-->
+<!-- At First I had this as a section under the body but it creates descendent issues for main-->
+<!---I think keeping a div may have been a better choice but I wanted to make sure I adhered to the rubric-->
+<body id="wrapper">
     <header>
       <h1>Pacific Trails Resort</h1>
     </header>
-
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -30,10 +29,10 @@
       </ul>
     </nav>
 
-    <main>
-      <!---Refactoring "yurt-hero" from a div to a section tag here is far more intuitive. As there is a pattern I can create with in keeping the h-tags in divided section tags.-->
-      <section id="yurt-hero">
-        <h2>The Yurts at Pacific Trails</h2>
+  <main>
+  <!---Refactoring "yurt-hero" from a div to a section tag here is far more intuitive. As there is a pattern I can create with in keeping the h-tags in divided section tags.-->
+    <section id="yurt-hero">
+      <h2>The Yurts at Pacific Trails</h2>
         <dl>
           <dt>What is a yurt?</dt>
           <dd>Our luxury yurts are permanent structures four feet off the ground...</dd>
@@ -42,10 +41,10 @@
           <dt>What should I bring?</dt>
           <dd>Bring a sense of adventure and some time to relax! Most guests...</dd>
         </dl>
-      </section>
-      <!--This is the final replacement, denoting the third h-tag. I also updated the ids to follow the same convention.-->
-      <section id="yurt-packages">
-        <h3>Yurt Packages</h3>
+    </section>
+    <!--This is the final replacement, denoting the third h-tag. I also updated the ids to follow the same convention.-->
+    <section id="yurt-packages">
+      <h3>Yurt Packages</h3>
         <p>A variety of luxury yurt packages are available. Choose a package...</p>
         <table>
           <tr>
@@ -73,12 +72,11 @@
             <td>$600</td>
           </tr>
         </table>
-      </section>
-    </main>
+    </section>
+  </main>
     <footer>
       Copyright © 2016 Pacific Trails Resort<br>
       <a href="mailto:yourfirstname@yourlastname.com">yourfirstname@yourlastname.com</a>
     </footer>
-  </section>
 </body>
 </html>
