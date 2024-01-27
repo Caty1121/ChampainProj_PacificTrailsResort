@@ -1,5 +1,6 @@
 #cart-container {
     float: right;
+    padding-right: 30%;
   }
   
   #cart-icon {
@@ -7,12 +8,12 @@
     height: auto; 
   }
 
-  .package-icon {
-    width: 25%; 
-    height: auto; 
-  }
-
   #weekend-icon, #kayak-icon {
-    width: 12%;
+    width: 8%;
     height:auto;
+    padding-left: 1%;
   }
+    #zen-icon {
+    width: 11%;
+    height: auto;
+    } 
