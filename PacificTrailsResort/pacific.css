@@ -1,0 +1,18 @@
+#cart-container {
+    float: right;
+  }
+  
+  #cart-icon {
+    width: 50px; 
+    height: auto; 
+  }
+
+  .package-icon {
+    width: 25%; 
+    height: auto; 
+  }
+
+  #weekend-icon, #kayak-icon {
+    width: 12%;
+    height:auto;
+  }
