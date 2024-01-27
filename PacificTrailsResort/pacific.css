@@ -16,4 +16,10 @@
     #zen-icon {
     width: 11%;
     height: auto;
-    } 
+    }
+    .draggable {
+        cursor:pointer;
+    }
+    .over {
+        border:2px dashed #000
+    }
