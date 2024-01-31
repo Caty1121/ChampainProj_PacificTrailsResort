@@ -23,3 +23,8 @@
     .over {
         border:2px dashed #000
     }
+
+    li a[href*=".html"] {
+      color: rgb(220, 39, 214);
+      font-weight: bold;
+  }
