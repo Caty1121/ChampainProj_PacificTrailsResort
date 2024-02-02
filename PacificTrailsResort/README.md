@@ -28,3 +28,14 @@ The 'dragover' event is necessary for the drop action to work. By preventing the
 
 #### Cart Item Count and Icon Update: 
 After an item is dropped, we increment the cartItemCount variable and call updateCartIcon() to change the cart icon, indicating that the cart now contains items.
+
+### Targeting with Selectors
+
+#### Overview
+The latest feature includes selectors within the CSS to create a unified design within the website for all href's. This feature was implemented with minimal code changes yet includes all pages.
+
+### Target Selection Choice
+As target selectors have robust options such as "Begins with", "Ends with", and "Contains", using "Ends with" was an intuitive selection as the pages we are trying to encapsulate all include "html" at the end of the file name, making this selection a perfect way to filter for the desired content to carry the effect.
+
+### Design Choice
+A darker green was included as the design choice to pull from colors in the video and create a relaxing atmosphere for the user.
