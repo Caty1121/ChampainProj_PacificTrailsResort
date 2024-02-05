@@ -39,3 +39,7 @@ As target selectors have robust options such as "Begins with", "Ends with", and 
 
 ### Design Choice
 A darker green was included as the design choice to pull from colors in the video and create a relaxing atmosphere for the user.
+
+### Animations & Transition:
+### Slide Navigation
+The new slide navigation has replaced text links with icons to create a current and minimalistic feel for users. Instead of having links for page destinations listed at the top of the page, there is now have a vertical left navigation bar.
