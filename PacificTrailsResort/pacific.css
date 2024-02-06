@@ -1,7 +1,12 @@
+body {
+  flex: 1;
+  padding-left: 200px !important;
+  background-color: rgb(166, 215, 198);
+}
 .wrapper  {
   display: flex;
 }
-
+/**** Yurt Page Icons *****/
 #cart-container {
     float: right;
     padding-right: 30%;
@@ -30,23 +35,30 @@
 .over {
         border:2px dashed #000
     }
-
+tr {
+      background-color: white;
+  }
+/***** Redundant now, maybe there's another opp to use this technique *******/
 li a[href*=".html"] {
       color:rgb(67, 123, 103);
       font-weight: bold;
       text-decoration: none;
   }
+img {
+  padding-top: 60px;
+  padding-bottom: 60px;
 
+}
+/**** Nav Bar ****/
 #vertical-nav {
     position: fixed; 
     top: 0;
     left: 0; 
     flex: 0 0 100px;
-    background-color: rgb(67, 123, 103);
+    background-color: rgb(248, 250, 249);
     height: 100%; 
     z-index: 1;
 }
-
 #vertical-nav ul {
     list-style: none; 
     margin: 0; 
@@ -59,6 +71,3 @@ li a[href*=".html"] {
     padding: 10px;
 }
 
-#homehero {
-  flex: 1;
-}
