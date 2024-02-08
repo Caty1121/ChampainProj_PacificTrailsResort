@@ -18,13 +18,13 @@ This event listener ensures that the JavaScript code runs only after the entire 
 We select all elements with the class draggable. These elements are the items that can be dragged and dropped into the cart.
 
 #### Drag Start Event: 
-For each draggable element, we add an event listener to handle the 'dragstart' event. When a user starts dragging an item, this event triggers, and we use dataTransfer.setData to store the ID of the dragged element. This ID is used later to identify which element is being dropped.
+For each draggable element, we add an event listener to handle the 'drag-start' event. When a user starts dragging an item, this event triggers, and we use dataTransfer.setData to store the ID of the dragged element. This ID is used later to identify which element is being dropped.
 
 #### Drop Zone Selection: 
 We select the cart container element, which acts as the drop zone for our draggable items.
 
 #### Drag Over Event: 
-The 'dragover' event is necessary for the drop action to work. By preventing the default behavior, we allow items to be dropped into the drop zone.
+The 'drag-over' event is necessary for the drop action to work. By preventing the default behavior, we allow items to be dropped into the drop zone.
 
 #### Cart Item Count and Icon Update: 
 After an item is dropped, we increment the cartItemCount variable and call updateCartIcon() to change the cart icon, indicating that the cart now contains items.
@@ -42,4 +42,5 @@ A darker green was included as the design choice to pull from colors in the vide
 
 ### Animations & Transition:
 ### Slide Navigation
-The new slide navigation has replaced text links with icons to create a current and minimalistic feel for users. Instead of having links for page destinations listed at the top of the page, there is now have a vertical left navigation bar.
+The new slide navigation has replaced text links with icons to create a current and minimalistic feel for users. Instead of having links for page destinations listed at the top of the page, there is now have a left-side vertical navigation bar. Icons are also enlarged for enhanced readability.
+ 

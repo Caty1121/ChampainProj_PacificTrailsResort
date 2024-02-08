@@ -43,22 +43,18 @@ tr {
   td {
     width:300px;  
   }
-/***** Redundant now, maybe there's another opp to use this technique *******/
-li a[href*=".html"] {
-      color:rgb(67, 123, 103);
-      font-weight: bold;
-      text-decoration: none;
+  img {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
-img {
-  padding-top: 60px;
-  padding-bottom: 60px;
 
-}
 /**** Nav Bar ****/
-#vertical-nav {
+
+#vertical-nav { 
     position: fixed; 
     top: 0;
-    left: 0; 
+    left: 0;
+    padding: 25px; 
     flex: 0 0 100px;
     background-color: rgb(248, 250, 249);
     height: 100%; 
@@ -74,5 +70,12 @@ img {
     display: block;
     color: white;
     padding: 10px;
+}
+
+li:hover a[href*=".html"] {
+  transform: scale(1.5); 
+}
+.current a[href*=".html"] {
+transform: scale(1.5);
 }
 
