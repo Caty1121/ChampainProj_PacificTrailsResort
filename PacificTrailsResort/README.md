@@ -40,7 +40,12 @@ As target selectors have robust options such as "Begins with", "Ends with", and 
 ### Design Choice
 A darker green was included as the design choice to pull from colors in the video and create a relaxing atmosphere for the user.
 
+### Nav Bar Upgrade
+Page links have been replaces using flex display with a vertical nav bar that contains icons in place of page links.
+These icons enlarge upon hovering over each page and stay enlarged when the user clicks the page. This creates a simplistic user journey that clearly denotes the area the user is navigating.
+
+
 ### Animations & Transition:
 ### Slide Navigation
-The new slide navigation has replaced text links with icons to create a current and minimalistic feel for users. Instead of having links for page destinations listed at the top of the page, there is now have a left-side vertical navigation bar. Icons are also enlarged for enhanced readability.
+The new *slide* navigation has replaced text links with icons to create a current and minimalistic feel for users. Instead of having links for page destinations listed at the top of the page, there is now have a left-side vertical navigation bar. Icons are also enlarged for enhanced readability.
  

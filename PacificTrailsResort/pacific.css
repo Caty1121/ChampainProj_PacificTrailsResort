@@ -88,7 +88,7 @@ transform: scale(1.5);
 /** Current attempt at sliding in from the right **/
 
 #not-nav-container {
-  animation: slideInAnimation ease 3s;
+  animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
