@@ -49,3 +49,5 @@ These icons enlarge upon hovering over each page and stay enlarged when the user
 ### Slide Navigation
 The new *slide* navigation has replaced text links with icons to create a current and minimalistic feel for users. Instead of having links for page destinations listed at the top of the page, there is now have a left-side vertical navigation bar. Icons are also enlarged for enhanced readability.
  
+### New Responsive Design
+The newest responsive design allows you to take the Pacific Trails website on the Road! We now offer mobile sizing options for even the smallest of phones.

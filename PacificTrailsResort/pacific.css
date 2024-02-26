@@ -4,11 +4,13 @@ body {
   background-color: #41966f;
   Color: black;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
   overflow-x: hidden;
 }
 .wrapper  {
   display: flex;
 }
+
 /**** Yurt Page Icons *****/
 #cart-container {
     float: right;
@@ -84,7 +86,6 @@ li:hover a[href*=".html"] {
 transform: scale(1);
 }
 
-/** Current attempt at sliding in from the right **/
 
 .not-nav-container {
   position: absolute;
@@ -102,3 +103,45 @@ transform: scale(1);
       right: -11%;
   }
 }
+@media (max-width: 320px) {
+  .unimportant-text {
+      display: none !important;
+  }
+  body {
+      font-size: 12px;
+      margin-left: 50%;
+  }
+}
+@media (max-width: 480px) {
+  body {
+      width: 100%;
+      height: auto;
+      margin-left: 50%;
+
+  }
+}
+@media (max-width: 768px) {
+  body {
+      font-size: 16px;
+      padding-left: 50%;
+
+  }
+}
+@media (max-width: 1024px) {
+  body {
+      display: block;
+
+
+  }
+  body {
+      font-size: 20px;
+
+
+  }
+  body {
+      width: 50%;
+      height: auto;
+
+  }
+}
+
