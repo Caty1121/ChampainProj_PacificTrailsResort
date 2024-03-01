@@ -86,7 +86,6 @@ li:hover a[href*=".html"] {
 transform: scale(1);
 }
 
-
 .not-nav-container {
   position: absolute;
   top: 5%; 
@@ -107,11 +106,13 @@ transform: scale(1);
   .unimportant-text {
       display: none !important;
   }
+
   body {
-      font-size: 12px;
+      font-size: 14px;
       margin-left: 50%;
   }
 }
+
 @media (max-width: 480px) {
   body {
       width: 100%;
@@ -133,15 +134,54 @@ transform: scale(1);
 
 
   }
-  body {
-      font-size: 20px;
 
-
-  }
   body {
       width: 50%;
       height: auto;
 
   }
 }
+@media screen and (min-width: 1366px) {
+  #wrapper {
+    max-width: 1200px;
+    margin: auto;
+    font-size: 14px;
+  }
+}
 
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+  #wrapper {
+    max-width: 960px;
+    margin: auto;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #vertical-nav {
+    display: none; 
+  }
+  .not-nav-container, video {
+    width: 100%;
+    margin: auto;
+  }
+}
+.subheading {
+  margin-top: 55%;
+}
+#hamburger-icon {
+  display: none; 
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  #hamburger-icon {
+    display: block; 
+  }
+  #vertical-nav {
+    display: none; 
+  }
+  #vertical-nav.active {
+    display: block; /
+  }
+}

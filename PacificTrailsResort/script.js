@@ -44,3 +44,8 @@ document.addEventListener('DOMContentLoaded', (e) => {
         }
     }
 });
+
+function toggleNav() {
+    var nav = document.getElementById('vertical-nav');
+    nav.classList.toggle('active');
+  }
